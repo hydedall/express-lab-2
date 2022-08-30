@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 // Declare Routes and Routers 
-
+// req = request // res = response
 app.get('/greeting', function (req, res) {
     res.send("Hello, stranger");
 })
