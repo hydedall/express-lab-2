@@ -22,4 +22,6 @@ app.get('/magic/:phrase', function (req, res) {
     res.send(`<h1>${req.params.phrase}</h1> </br> <h1>${ball[rand]}</h1>`);
 })
 
+// Server Listener
+
 app.listen(3000)
